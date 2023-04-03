@@ -1,0 +1,1 @@
+This project are the second Lab of Tec. Web, which was requested to we made a website for a Movie Teather implementig the semantic HTML introduced at HTML 5. Please, enjoy!
