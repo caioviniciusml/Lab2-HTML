@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Cadastro</title>
 </head>
 <body>
     <header>
-        <h1><img src="images/movie-icon.png" width="40px" height="40px" alt="Movie Icon"> CINEMA DO FISCHER</h1>
+        <h1>CINEMA DO FISCHER</h1>
         <hr>
     </header>
     <main>
-        <a href="homepage.html"><button>&larr; Pagina Inicial</button></a>
+        <button><a href="homepage.html">Pagina Inicial</a></button>
         <h2>CADASTRO:</h2>
         <form action="">
             <p>
@@ -59,7 +63,7 @@
                 <label for="movie-gender">Preferência de Gênero de Filmes:</label>
                 <input type="range" id="movie-gender" min="0" max="70" step="10">
             </p>
-            <input type="submit" value="Cadastrar">
+            <button id="submit" type="submit">Cadastrar</button>
         </form>
     </main>
 </body>
